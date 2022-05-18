@@ -45,7 +45,7 @@
         width: calc(var(--unit)*11%);
      
     }
-    .colsm_12{
+    .col-sm_12{
         width: calc(var(--unit)*12%);
       
     }
