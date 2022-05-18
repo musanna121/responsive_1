@@ -89,11 +89,10 @@ nav ul li a{
     background-image: url("./banner.jpg");
     background-repeat: none;
     text-align: center;
-    height: 400px;
+
 }
 .banner .underline{
     border-bottom:2px solid greenyellow;
-    width: 400px;
     margin: auto;
     margin-top: 0;
     margin-bottom: 8px;
@@ -203,7 +202,6 @@ form input{
     margin-bottom: 5px;
 }
 #message{
-    width: 400px;
     border-radius: 5px;
     background-color: rgba(240, 248, 255, 0.068);
     border-color: aliceblue;
@@ -222,9 +220,7 @@ form input{
 label{
     color: white;
 }
-#send{
-    margin-left: 210px;
-}
+
 #check{
     margin: 0;
     padding: 0;
