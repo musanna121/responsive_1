@@ -20,22 +20,22 @@
     flex-wrap: wrap;
     
 }
-.row .col_1{
+.col_1{
     width: calc(var(--unit)*1%);
  
 }
-.row .col_2{
+.col_2{
     width: calc(var(--unit)*2%);
 
 }
-.row .col_3{
+.col_3{
     width: calc(var(--unit)*3%);  
 }
-.row .col_4{
+.col_4{
     width: calc(var(--unit)*4%);
  
 }
-.row .col_5{
+.col_5{
     width: calc(var(--unit)*5%);
 
 }
@@ -43,27 +43,27 @@
     width: calc(var(--unit)*6%);
 
 }
-.row .col_7{
+.col_7{
     width: calc(var(--unit)*7%);
 
 }
-.row .col_8{
+.col_8{
     width: calc(var(--unit)*8%);
 
 }
-.row .col_9{
+.col_9{
     width: calc(var(--unit)*9%);
 
 }
-.row .col_10{
+.col_10{
     width: calc(var(--unit)*10%);
 
 }
-.row .col_11{
+.col_11{
     width: calc(var(--unit)*11%);
  
 }
-.row .col_12{
+.col_12{
     width: calc(var(--unit)*12%);
   
 }
@@ -209,10 +209,11 @@ form input{
     color: white;
 }
 #send{
-    width: 100px;
+    width: 200px;
     background-color: rgba(240, 248, 255, 0.068);
     border-color: aliceblue;
     color: white;
+    margin-left: 320px;
 
 }
 ::placeholder{
