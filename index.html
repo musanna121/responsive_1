@@ -16,9 +16,11 @@
     <header>
         <div class="container">
             <div class="row">
-                <img class="col_2" src="./logo.png" alt="">
-            <nav class="col_10">
-                <ul>
+                <img class="col_2 col_sm_6 brand_logo" src="./logo.png" alt="">
+            <nav  class="col_10 col_sm_6">
+                <button class="toggle_button" onclick="navbar.classList.toggle('nav_active')"><i class="fa-solid fa-bars"></i></button>
+                <ul id="navbar">
+                    <li id="cross" onclick="navbar.classList.toggle('nav_active')"><a href=""><i class="fa-solid fa-x"></i></a></li>
                     <li><a href="">Home</a></li>
                     <li><a href="">About</a></li>
                     <li><a href="">Contact</a></li>

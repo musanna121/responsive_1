@@ -5,9 +5,64 @@
     .col_sm_12{
         width: calc(var(--unit)*12%);
     }
+    .col_sm_6{
+        width: calc(var(--unit)*6%);
+    }
+    .brand_logo{
+        width:50%;
+        left: 0px;
+    }
     .logos{
         width: 80%;
-   
+    
+    }
+    .toggle_button{
+        display: block;
+        margin-top: 33px;
+        margin-left: 173px;
+    }
+    nav ul{
+        flex-direction: column;
+        position: fixed;
+        width: 50%;
+        height: 100vh;
+        vertical-align: top;
+        background-color:  rgb(9, 25, 44);
+        border: 1px solid rgb(255, 255, 255);
+        margin: 0;
+        padding: 20px;
+        top: 107px;
+        right: -100px;
+        z-index: 99;
+        justify-content: unset;
+        text-align: center;
+        display: none;
+        visibility: none;
+        transition-delay: all linear 3s;
+    }
+    #cross a i{
+        color: white;
+        padding-left: 142px;
+        font-size: 35px;
+    }
+    .nav_active{
+        display: block;
+        visibility: visible;
+        top: 107px;
+        right: 0px;
+    }
+
+    nav ul li:hover{
+        background-color: rgba(255, 255, 255, 0.863);
+        cursor: pointer;
+    }
+    nav ul li{
+        padding: 30px;
+        color: white;
+
+    }
+    nav ul li a{
+        color: white;
     }
     #send{
         width: 100px;

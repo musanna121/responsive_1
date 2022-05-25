@@ -1,7 +1,5 @@
 :root{
-    --border: 1px solid red;
     --unit: 8.333333333333334;
-    --medium: 22;
 }
 *{
     box-sizing: border-box;
@@ -74,6 +72,10 @@ nav ul{
     display: flex;
     justify-content: flex-end;
     padding-top: 15px;
+}
+.toggle_button{
+    display: none;
+    visibility: none;
 }
 nav ul li{
     list-style-type: none;
@@ -229,9 +231,9 @@ label{
     width: 10px;
     
 }
-footer{
-
-}
+/* footer{
+    
+} */
 footer ul{
     display: flex;
     justify-content:flex-end;
