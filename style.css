@@ -77,6 +77,10 @@ nav ul{
     display: none;
     visibility: none;
 }
+#cross a i{
+    display: none;
+    visibility: none;
+}
 nav ul li{
     list-style-type: none;
 }

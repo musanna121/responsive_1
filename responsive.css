@@ -20,6 +20,12 @@
         display: block;
         margin-top: 33px;
         margin-left: 173px;
+        background-color:  rgb(9, 25, 44);
+        padding: 5px;
+    }
+    .toggle_button i{
+        color: white;
+        font-size: 33px;
     }
     nav ul{
         flex-direction: column;
@@ -38,12 +44,14 @@
         text-align: center;
         display: none;
         visibility: none;
-        transition-delay: all linear 3s;
+        transition-delay: all linear 0.3s;
     }
     #cross a i{
         color: white;
         padding-left: 142px;
         font-size: 35px;
+        
+
     }
     .nav_active{
         display: block;
@@ -52,10 +60,6 @@
         right: 0px;
     }
 
-    nav ul li:hover{
-        background-color: rgba(255, 255, 255, 0.863);
-        cursor: pointer;
-    }
     nav ul li{
         padding: 30px;
         color: white;
